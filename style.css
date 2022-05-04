@@ -46,8 +46,34 @@ li{
   font-size: 1.9rem;
   line-height: 2.8rem;
   letter-spacing: 0.014rem;
+  margin-bottom: 1.7rem;
+  margin-left: 0.2rem;
 }
 .logout{
-  margin-top: 325px;
+  margin-top: 270px;
   align-items: flex-end;
+}
+
+/*Formatando Container 2*/
+
+input{
+  position: absolute;
+  top:2rem;
+  left: 25rem;
+  max-width: 25rem;
+  border-radius: 10rem;
+}
+.sino{
+  position: absolute;
+  top:2rem;
+  left: 127rem;
+}
+.profile{
+  position: absolute;
+  top:2rem;
+  margin-right: 1rem;
+  left: 131rem;
+  width: 4rem;
+  height: 4rem ;
+
 }
