@@ -1,0 +1,53 @@
+:root{
+  font-size: 62.5%;/*1 rem = 10px*/
+  --all-text:(hsla(210, 6%, 34%, 1));
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+/*Menu Vertical*/
+h1.display-4{
+  display: block;
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top: 0.2rem;
+  font-weight: 700; 
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 2.8rem;
+  color: hsla(210, 6%, 34%, 1);
+}
+ul{
+  width: 25rem;
+  list-style: none;
+}
+li{
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: var(--all-text);
+  height: 2.9rem;
+  font-size: 1.9rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.014rem;
+}
+.logout{
+  margin-top: 325px;
+  align-items: flex-end;
+}
